@@ -1,0 +1,176 @@
+.divSup {
+	background-color: #DADADA;
+	height: 100px;
+	width: 100%;
+	min-width: 1200px;
+	border: 1px solid black;
+	border-bottom: none;
+
+}
+
+.divSup{
+	font-family: tahoma;
+}
+		
+.divSub {
+	background-color: white;
+	min-height: 300px;
+	width: auto;
+	float: left;
+	padding-bottom: 20px;
+	min-width: 1123px;
+	border: 1px solid black;
+	border-bottom: none;
+	padding-left: 3px;
+	border-radius: 15px;
+}
+
+.container{
+	background-color: #DADADA;
+	width: 100%;
+	min-width: 1230px;
+	height: auto;
+	float: left;
+	border: 1px solid black;
+	border-top: none;
+	
+}
+
+.container{
+	font-family: tahoma;
+}
+		
+.menulateral{
+	float: left;
+	background-color: #093850;
+	height: 100%;
+	width: 180px;
+	padding: 5px;
+	border: 1px solid black;
+	padding-bottom: none;
+	border-radius: 15px 15px 6px 6px;
+}
+
+.boxMenu{
+	width: 168px;
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 4px;
+	
+}
+
+.logo{
+	padding-top: 15px;
+	padding-left: 20px;
+	height: 60px;
+	width: 180px;
+	float: left;
+}
+
+.textSup{
+	height: 60px;
+	width: 8dw00px;
+	float: left;
+}
+
+.back{
+	height: 30px;
+	width: 90px;
+	border: 1px solid black;
+	background-color: RGB(255,201,14);
+	float: left;
+	border-radius: 30px;
+	align-items: center;
+	color: black;
+}
+
+.voltar{
+		float: right;
+		margin-top: 5px;
+		padding-right: 10px;
+		
+}
+
+A {
+	text-decoration: none;
+	color: navy;
+}
+
+body{
+	height: 100%;
+	background-color: #093850;
+
+}
+
+.divsub{
+	background-color: white;
+	min-height: 300px;
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+	min-width: 1123px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	color: white;
+	
+	
+}
+
+.divsub{
+	font-family: tahoma;
+}
+
+textarea{
+resize: none;
+}
+
+.img{
+	width: auto;
+	height: auto;
+	max-width: 700px;
+	max-height: 700px;
+}
+
+
+.imgA{
+	width: auto;
+	height: auto;
+	max-width: 700px;
+	max-height: 700px;
+}
+
+.opcoes{
+	background-color: gray;
+	height: 60px;
+	width: 150px;
+	margin-left: 40px;
+	margin-top: 40px;
+	border-radius: 9px;
+	border: 1px solid black;
+	float: left;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}			
+
+.opcoesResult{
+	background-color: gray;
+	height: 26px;
+	width: 1040px;
+	margin-left: 40px;
+	margin-top: 40px;
+	border-radius: 9px;
+	border: 1px solid black;
+	color: white;
+	text-align: center;
+	}
+
+.separarBox{
+			
+	height: 200px;
+	width: auto;
+
+}
