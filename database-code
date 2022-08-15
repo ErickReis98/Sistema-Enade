@@ -1,0 +1,62 @@
+create database sisenade;
+
+use sisenade;
+ 
+create table tbcurso(
+	codCurso int not null auto_increment,
+	nomeCurso varchar (70) not null,
+	constraint pk_tbcurso primary key (codCurso))
+	default charset = utf8mb4;
+
+create table tbdisciplina(
+	codDisciplina int not null auto_increment,
+	nomeDisciplina varchar(70) not null,
+		constraint pk_tbdisciplina primary key (codDisciplina)
+) default charset = utf8mb4;
+
+create table tbquestao(
+	codQuestao int not null auto_increment,
+	edicao int(4) not null,
+	numeroQuestao int not null,
+	tipoQuestao varchar(13) not null,
+	nivel varchar(10) not null,
+	enunciado text not null,
+	anexo varchar(100),
+	alternativaA text,
+	alternativaB text,
+	alternativaC text,
+	alternativaD text,
+	alternativaE text,
+	alternativaCorreta char(1),
+	dissertativa text,
+	altA varchar(100),
+	altB varchar(100),
+	altC varchar(100),
+	altD varchar(100),
+	altE varchar(100),
+		constraint pk_tbquestao primary key(codQuestao)
+)default charset = utf8mb4;
+
+
+create table tbcentral(
+	id int auto_increment,
+	codCurso int(3) not null,
+	codDisciplina int(3) not null,
+	codQuestao int(5) not null,
+	constraint pk_tbcentral primary key(id),
+	constraint fk_tbcentral_2_tbcurso
+		foreign key (codCurso) references tbcurso (codCurso),
+	constraint fk_tbcentral_2_tbdisciplina
+		foreign key (codDisciplina) references tbdisciplina(codDisciplina),
+	constraint fk_tbcentral_2_tbquestao
+		foreign key (codQuestao) references tbquestao (codQuestao)
+	
+)default charset = utf8mb4;
+
+
+
+
+
+
+
+
